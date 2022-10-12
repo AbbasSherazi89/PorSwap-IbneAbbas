@@ -1,0 +1,144 @@
+.navbar {
+  background: #113f65 !important;
+  font-weight: bold;
+
+  .nav-link {
+    color: white !important;
+  }
+}
+///
+
+.hero-fluid {
+  background-image: url("./Media/hero-bg.png");
+  background-repeat: none;
+  background-position: center;
+  color: white;
+  // height: 90vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .btn-warning {
+    width: 100%;
+  }
+  .rocket-icon {
+    font-size: 25px;
+    color: red;
+  }
+  .btn-danger {
+    width: 32.5%;
+  }
+}
+
+.asseen-fluid {
+  background-color: white;
+  color: black;
+}
+
+.litepaper-fluid {
+  background-image: url("./Media/Section-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .cardc {
+    background-color: #f8f8f8;
+  }
+  .cardn {
+    background-color: white;
+  }
+}
+
+.video-fluid {
+  background-image: url("./Media/platformInterface-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.token {
+  background-image: url("./Media/token-base.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 18.75rem;
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  max-width: 73.125rem;
+  margin: 0 auto 2.5rem;
+}
+
+.platform-fluid {
+  background-image: url("./Media/platformInterface-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.table-fluid {
+  background-image: url("./Media/comparisonTable-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .odd {
+    background-color: #f5f5f5;
+    height:4rem;
+  }
+  .even {
+    background-color:white;
+    height:4rem;
+  }
+  .check{
+    font-size: 25px;
+    color: rgb(5, 108, 31);
+  }
+  .cross{
+    font-size: 25px;
+    color: red;
+  }
+}
+
+.faq-fluid {
+  background-image: url("./Media/Faqs-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+  }
+
+}
+
+///Footer///
+.footer-fluid {
+  padding: 3rem;
+  // margin-top: 7rem;
+  background: #113f65 !important;
+
+  .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+  .footer-icons {
+    font-size: 45px;
+  }
+  .Footer-p {
+    color: white;
+  }
+  .Footer-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+  }
+
+  .Footer-link:hover {
+    text-decoration: underline;
+  }
+  .line-horizontal {
+    border-width: 2px;
+    color: white;
+    background-color: white;
+  }
+}
