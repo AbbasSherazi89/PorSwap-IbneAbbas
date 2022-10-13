@@ -21,7 +21,7 @@ const Footer = () => {
                   <div>
                     <p className="Footer-p">
                       Decentralized Spot and Futures Trading on Binance
-                      Smart Chain{" "}
+                      Smart Chain
                     </p>
                   </div>
                 </div>

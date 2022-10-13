@@ -3,7 +3,7 @@ import React from 'react'
 const PlatformInterface = () => {
   return (
     <>
-     <div className="container-fluid platform-fluid py-5">
+     <div id="platform" className="container-fluid platform-fluid py-5">
         <div className="container">
             <h1 className='text-center'>Platform <span className='text-danger'>Interface</span></h1>
             <p className='text-center pb-5'>De-Fi doesn't need to be boring, bringing UX focused interface</p>

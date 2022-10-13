@@ -4,7 +4,7 @@ import Token from "./Token";
 const LitePaper = () => {
   return (
     <>
-      <div className="container-fluid litepaper-fluid">
+      <div id="litepaper" className="container-fluid litepaper-fluid">
         <div className="container">
           <div className="row">
             <div className="col-md-4 cardc text-center p-5">
