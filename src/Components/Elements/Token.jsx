@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Token = () => {
   return (
@@ -8,30 +8,68 @@ const Token = () => {
           <h1 className="pb-5 text-center">
             Token <span className="text-danger">Distribution</span>
           </h1>
-        
-          <div className="row">
-            <div className="col-md-5"></div>
-            <div className="col-md-2"><h5 className='text-center fw-bold'>50%<br/>Liquidity Rewards<br/>(Locked)</h5></div>
-            <div className="col-md-5"></div>
-          </div>
-          <div className="row token">
-            <div className="col-md-3"></div>
-            <div className="col-md-2"><h5 className='text-center fw-bold'>10%<br/>Liquidity</h5></div>
-            <div className="col-md-2"></div>
-            <div className="col-md-2"><h5 className='text-center fw-bold'>510%<br/>Team - locked</h5></div>
-            <div className="col-md-3"></div>
-          </div>
-          <div className="row">
-            <div className="col-md-1"></div>
-            <div className="col-md-2"><h5 className='text-center fw-bold'>10%<br/>Growth Hacking</h5></div>
-            <div className="col-md-6"></div>
-            <div className="col-md-2"><h5 className='text-center fw-bold'>20%<br/>Public Sale</h5></div>
-            <div className="col-md-1"></div>
+          <div className="col-md-6 m-auto pb-5 token-small-view">
+            <div className="token-sale__graph">
+              <div className="row">
+                <div className="col-md-4"></div>
+                <div className="col-md-4 text-center">
+                <div data-aos="fade-down">
+                  <h5 class="fs-22">
+                    <strong>50%</strong>
+                  </h5>
+                  <strong>Liquidity Rewards (Locked)</strong>
+                  </div>
+                </div>
+                <div className="col-md-4"></div>
+              </div>
+              <div className="row mb-5">
+                <div className="col-md-2"></div>
+                <div className="col-md-3">
+                  <h5 class="fs-22">
+                    <strong>10%</strong>
+                  </h5>
+                  <span>
+                    <strong>Liquidity</strong>
+                  </span>
+                </div>
+                <div className="col-md-3"></div>
+                <div className="col-md-3 text-center">
+                  <h5 class="fs-22">
+                    <strong>10%</strong>
+                  </h5>
+                  <span>
+                    <strong>Team-locked</strong>
+                  </span>
+                </div>
+                <div className="col-md-1"></div>
+              </div>
+              <div className="row ">
+                {/* <div className="col-md-1"></div> */}
+                <div className="col-md-4">
+                  <h5 class="fs-22">
+                    <strong>10%</strong>
+                  </h5>
+                  <span>
+                    <strong>Growth Hacking</strong>
+                  </span>
+                </div>
+                <div className="col-md-4"></div>
+                <div className="col-md-4 text-end">
+                  <h5 class="fs-22">
+                    <strong>20%</strong>
+                  </h5>
+                  <span>
+                    <strong>Public Sale</strong>
+                  </span>
+                </div>
+                {/* <div className="col-md-1"></div> */}
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Token
+export default Token;

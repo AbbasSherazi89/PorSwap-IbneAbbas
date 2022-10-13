@@ -100,10 +100,10 @@ const LitePaper = () => {
       </div>
       <div className="container-fluid py-5">
         <div className="container">
-          <div className="row">
+          <div className="row asSeen-row">
             <div className="col-md-3">
               <img
-                className="img-fluid"
+                className="img-fluid mt-4"
                 src="assets/cmc-logo.png"
                 alt=""
                 width={200}
@@ -111,7 +111,7 @@ const LitePaper = () => {
             </div>
             <div className="col-md-3">
               <img
-                className="img-fluid"
+                className="img-fluid mt-4"
                 src="assets/cg-logo.webp"
                 alt=""
                 width={200}
@@ -120,7 +120,7 @@ const LitePaper = () => {
 
             <div className="col-md-3">
               <img
-                className="img-fluid"
+                className="img-fluid mt-4"
                 src="assets/hb-logo.png"
                 alt=""
                 width={200}
@@ -129,7 +129,7 @@ const LitePaper = () => {
 
             <div className="col-md-3">
               <img
-                className="img-fluid"
+                className="img-fluid mt-4"
                 src="assets/cb-logo.png"
                 alt=""
                 width={200}
@@ -144,17 +144,21 @@ const LitePaper = () => {
             How it <span className="text-danger">Works</span>
           </h1>
           <div className="row">
-            <div className="col-md-12 text-center">
-              <iframe
-                width="1140"
-                height="641"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
-              ></iframe>
+            <div className="col-md-1"></div>
+            <div className="col-md-10 text-center">
+              <div className="ratio ratio-16x9">
+                <iframe
+                 src="https://www.youtube.com/embed/-V5QjGogoig"
+                  title="YouTube video"
+                  allowFullScreen
+                />
+              </div>
+              <div className="col-md-1"></div>
             </div>
           </div>
         </div>
       </div>
-      <Token/>
+      <Token />
     </>
   );
 };

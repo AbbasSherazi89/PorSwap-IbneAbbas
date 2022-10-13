@@ -1,9 +1,23 @@
-import React from "react";
+import {React} from "react";
 import {Link} from "react-router-dom"
 const Header = () => {
+
+  // const [navbar, setnavbar] = useState(false);
+  
+  // const changeBg=()=>
+  // {
+  //   if(window.scrollY>=80)
+  //   {setnavbar(true);}
+  //   else{
+  //     setnavbar(false);
+  //   }
+  // }
+
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg py-4">
+    <>
+
+      {/* <nav className={navbar ? 'navbar navbar-expand-lg fixed-top py-4': ' navbar fixed-top py-4'} > */}
+      <nav className="navbar navbar-expand-lg fixed-top py-4">
         <div className="container">
           <Link to="/">
             <div>
@@ -65,7 +79,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 

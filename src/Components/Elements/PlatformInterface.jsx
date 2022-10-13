@@ -17,51 +17,43 @@ const PlatformInterface = () => {
         <div className="container-fluid py-5">
             <div className="container">
             <h1 className='text-center'>$PSWAP <span className='text-danger'>Utilities</span></h1>
-            <div className="row">
-                <div className="col-md-1"></div>
-                <div className="col-md-3">
+            <div className="row pi-row">
+                <div className="col-md-3 mt-4 ms-4 pi-card">
+                <img
+                className="img-fluid"
+                src="assets/u1.png"
+                alt="f1"
+                width={80}
+              />
+              <h5>Governance</h5>
+              <p>
+              Vote to modify underlying protocol, change in pricing oracle, futures funding rate, platform fees, list/de-list tokens, new features
+              </p>
+                </div>
+                <div className="col-md-3 mt-4 ms-4 pi-card">
+                <img
+                className="img-fluid"
+                src="assets/u2.png"
+                alt="f1"
+                width={80}
+              />
+              <h5>Incentives</h5>
+              <p>
+              Liquidity providers will be incentivized in $PSWAP for their participation in spot and leverage liquidity pools, and LP tokens can be staked for ARR of around 125%.
+              </p>
+                </div>
+                <div className="col-md-3 mt-4 ms-4 pi-card">
                 <img
                 className="img-fluid"
                 src="assets/u3.png"
                 alt="f1"
                 width={80}
               />
+              <h5>Deflation</h5>
               <p>
-                While other spot platform tokens mint 750,000 tokens per day,
-                we're aiming to burn 10% everyday through the revenue generated
-                from the platform. Increasing the value of token over 30X within
-                a year.
+              With a fixed supply of 1 million tokens, and only 200,000 in circulation, $PSWAP token will increase in value overtime since it'll be scarce and the team will buy back and burn tokens from platform revenue generated through spot and futures trading.
               </p>
                 </div>
-                <div className="col-md-3">
-                <img
-                className="img-fluid"
-                src="assets/u3.png"
-                alt="f1"
-                width={80}
-              />
-              <p>
-                While other spot platform tokens mint 750,000 tokens per day,
-                we're aiming to burn 10% everyday through the revenue generated
-                from the platform. Increasing the value of token over 30X within
-                a year.
-              </p>
-                </div>
-                <div className="col-md-3">
-                <img
-                className="img-fluid"
-                src="assets/u3.png"
-                alt="f1"
-                width={80}
-              />
-              <p>
-                While other spot platform tokens mint 750,000 tokens per day,
-                we're aiming to burn 10% everyday through the revenue generated
-                from the platform. Increasing the value of token over 30X within
-                a year.
-              </p>
-                </div>
-                <div className="col-md-1"></div>
             </div>
             </div>
         </div>
