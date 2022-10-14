@@ -17,5 +17,16 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   
+    <script>
+      // When the user scrolls down 50px from the top of the document, resize the header's font size
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 700 ) {
+          document.getElementById("header").style.backgroundColor = "#113F65";
+        } else {
+          document.getElementById("header").style.backgroundColor = "";
+        }
+      }
+      </script>
   </body>
 </html>

@@ -32,7 +32,7 @@ const HeroComp = () => {
                   value: "#fff",
                 },
                 shape: {
-                  type: "star",
+                  type: "circle",
                   options: {
                     sides: 5,
                   },

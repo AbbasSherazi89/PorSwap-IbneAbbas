@@ -1,3 +1,4 @@
+
 import {React} from "react";
 import {Link} from "react-router-dom"
 const Header = () => {
@@ -6,18 +7,18 @@ const Header = () => {
   
   // const changeBg=()=>
   // {
-  //   if(window.scrollY>=80)
+  //   if(window.scrollY>=90)
   //   {setnavbar(true);}
   //   else{
   //     setnavbar(false);
   //   }
   // }
+  // window.addEventListener('scroll', changeBg);
 
   return (
     <>
-
-      {/* <nav className={navbar ? 'navbar navbar-expand-lg fixed-top py-4': ' navbar fixed-top py-4'} > */}
-      <nav className="navbar navbar-expand-lg fixed-top py-4">
+    {/* <div className={navbar ? 'nav-color' : 'nav-trans'}> */}
+      <nav className='navbar navbar-expand-lg fixed-top py-4' id="header">
         <div className="container">
           <Link to="/">
             <div>
@@ -44,7 +45,7 @@ const Header = () => {
             className=" header-nav-col collapse navbar-collapse"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
               <li className="nav-item position-relative">
                 <Link className="nav-link" aria-current="page" to="/">
                   Features
@@ -79,6 +80,8 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      
+    {/* </div> */}
     </>
   );
 };
