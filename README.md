@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Pork Wap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic React application featuring particle background effects, animated scrolling, and interactive FAQ sections.
 
-## Available Scripts
+**Live URL:** https://stalwart-cendol-8415b1.netlify.app/
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+- **React 18** - UI library
+- **React Router DOM v6** - Routing and navigation
+- **Bootstrap 5 & React-Bootstrap** - Responsive UI components
+- **React Particles & tsparticles** - Interactive particle backgrounds
+- **React Scroll** - Smooth scrolling animations
+- **AOS (Animate on Scroll)** - Scroll-based reveal animations
+- **React FAQ Component** - Collapsible FAQ sections
+- **React Icons** - Icon library
+- **SASS** - CSS preprocessor
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive Particle Backgrounds** - Dynamic particle effects using tsparticles
+- **Smooth Scrolling** - Enhanced navigation with React Scroll
+- **Scroll Animations** - Element reveal effects with AOS
+- **FAQ Section** - Collapsible accordion-style FAQ component
+- **Responsive Design** - Fully responsive with Bootstrap 5
+- **SASS Styling** - Advanced CSS with variables and modular styling
 
-### `npm test`
+## 🚀 Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Optimized for deployment on Netlify, Vercel, or any static hosting service.
 
-### `npm run build`
+## 📄 License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is private and proprietary.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Built with React, Bootstrap, Particles.js, and modern web technologies**
